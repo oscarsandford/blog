@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ "$#" -ne 1 ]; then
+    echo "Provide one argument: the post title with dashes instead of spaces"
+    exit 2
+fi
+POST_LOCATION=./_posts/$(date --iso-8601)-$1.md
+
+echo "---
+layout: post
+author: Oscar Sandford
+tags: [random]
+---
+
+Text here." > $POST_LOCATION
+echo "Post template created at: $POST_LOCATION"

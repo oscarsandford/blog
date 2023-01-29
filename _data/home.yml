@@ -1,0 +1,39 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: log
+    url: log
+
+
+featured_entries:
+  # - title: Project 1
+  #   url: overview-post
+  #   desc: This is an example project, configured in _data/home.yml
+  #   highlight: WIP
+
+oss_entries:
+  - title: manget
+    url: https://github.com/oscarsandford/manget
+    desc: A CLI tool for binding digital pages of manga from MangaDex to PDFs
+
+  - title: appletree
+    url: https://github.com/oscarsandford/appletree
+    desc: A Discord bot application written in TypeScript, with a Rust/SQL backend
+
+  - title: genshinpedia
+    url: https://github.com/oscarsandford/genshinpedia
+    desc: A web user interface made with React for accessing the genshin.dev API
+
+footer_entries:
+  - title: homepage
+    url: https://oscarsandford.github.io
+
+  - title: github
+    url: https://github.com/oscarsandford
+
+  - title: linkedin
+    url: https://www.linkedin.com/in/oscar-sandford
+
+  - title: feed
+    url: feed.xml

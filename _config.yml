@@ -1,0 +1,42 @@
+title: Ramblings
+author: Oscar E. Sandford
+url: https://oscarsandford.github.io/blog # root address of the site
+description: > # description of the site (multiple lines allowed)
+  Thoughts, teachings, exhibitions, and extended vitriol.
+
+permalink: /:slug
+
+favicon: "./logo.png" # relative path to site's favicon
+
+#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+remote_theme: abhinavs/moonwalk
+
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  back_home_text: "home.." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description
+  show_navbar: true # show horizontal navbar
+  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_copyright: true # show copyright notice in footer
+  # following keys are using to create home layout
+  show_featured: false
+  show_blog: true
+  show_oss: false
+  show_reading_time: true # show number of words and reading time in the blog posts
+  show_tags: true # show tags in a blog posts
+  # options for "home" page
+  home:
+    # title_featured: Featured
+    title_blog: Log
+    # title_oss: OSS
+
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
