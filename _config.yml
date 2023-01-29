@@ -1,6 +1,6 @@
 title: Ramblings
 author: Oscar E. Sandford
-url: https://oscarsandford.github.io/blog # root address of the site
+url: /blog
 description: > # description of the site (multiple lines allowed)
   Thoughts, teachings, exhibitions, and extended vitriol.
 
@@ -24,7 +24,7 @@ theme_config:
   show_featured: false
   show_blog: true
   show_oss: false
-  show_reading_time: true # show number of words and reading time in the blog posts
+  show_reading_time: false # show number of words and reading time in the blog posts
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:

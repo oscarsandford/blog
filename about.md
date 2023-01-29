@@ -3,7 +3,7 @@ layout: post
 title: About
 ---
 
-![oes](./images/about.jpg "Oscar Sandford")
+![oes]({{ site.baseurl }}/images/about.jpg "Oscar Sandford")
 
 My name is Oscar.
 
