@@ -1,0 +1,8 @@
+#!/bin/sh
+
+BLOG_PATH=$(dirname "$0")/..
+set -e
+
+git -C $BLOG_PATH add _posts/*
+git -C $BLOG_PATH commit -m "Update posts"
+git -C $BLOG_PATH push
